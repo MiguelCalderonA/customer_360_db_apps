@@ -1,0 +1,17 @@
+command:
+  - "uvicorn"
+  - "app:app"
+  - "--host"
+  - "0.0.0.0"
+  - "--port"
+  - "8000"
+
+env:
+  - name: DATABRICKS_CATALOG
+    value: "miguel_usage_testing_catalog"
+  - name: DATABRICKS_SCHEMA
+    value: "bnpl_customer_360"
+  - name: CUSTOMER_360_TABLE
+    value: "customer_360"
+  # DATABRICKS_WAREHOUSE_ID is provided by the SQL Warehouse app resource
+  # named "warehouse" (added via the UI after first deploy).

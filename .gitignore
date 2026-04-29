@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+*.egg-info/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Build outputs - DO NOT exclude frontend/dist (needed for deployment)
+.parcel-cache/
+.next/
+frontend/vite.config.d.ts
+frontend/vite.config.js
+frontend/*.tsbuildinfo
+
+# Databricks
+.databricks/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
