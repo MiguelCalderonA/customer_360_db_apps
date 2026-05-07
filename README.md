@@ -4,8 +4,7 @@ A Customer 360 view for a buy-now-pay-later fintech, served as a Databricks
 App. Same data is reachable interactively through the bundled UI **and**
 programmatically through a REST API.
 
-**Live demo:** `https://customer-360-7474658851923715.aws.databricksapps.com`
-(workspace: `fevm-miguel-usage-testing`)
+
 
 ## What's in here
 
